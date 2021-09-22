@@ -1,1 +1,58 @@
-blabla
+body{
+  background:#BE76D0;
+  background: linear-gradient(to right, #C290CF, #C39BCD, #CCAED3, #EDE2EF);
+
+}
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 12em;
+}
+
+.inner{
+
+    text-align: center;
+    color: whitesmoke;
+    overflow: hidden;
+    padding: 0.4em;
+}
+
+.inner>h1{
+
+    font-size: 3.5em; 
+    animation: Slide_Up 1.4s ease;
+}
+
+.inner>p{
+
+    font-size: 1.2em;
+    animation: Slide_Up 1.6s ease;
+}
+
+.inner>button{
+
+    margin-top: 2em;
+    padding: 1em 2.5em;
+    font-size: 1em;
+    border-radius: 4em;
+    border: none;
+    background: #D2D2D2;
+    color: whitesmoke;
+    animation: Slide_Up 1.7s ease;
+}
+
+@keyframes Slide_Up{
+
+    0%{
+        transform: translateY(250px);
+    }
+
+    100%{
+
+        transform: translate(0);
+
+    }
+
+}
