@@ -31,7 +31,7 @@ body{
     animation: Slide_Up 1.6s ease;
 }
 
-.inner>button{
+.inner>a>button{
 
     margin-top: 2em;
     padding: 1em 2.5em;

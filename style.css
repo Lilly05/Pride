@@ -52,3 +52,7 @@ p{
 li{
     list-style-type: none;
 }
+
+.bilder{
+    justify-content: center;
+}
