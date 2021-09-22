@@ -1,5 +1,8 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: whitesmoke;
+    background:#ba74cc;
+    background: linear-gradient(to right, #C290CF, #C39BCD, #CCAED3, #EDE2EF);
 }
 
 .container{
@@ -23,7 +26,9 @@ nav{
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 4;
-    background-color: lightgray;
+    width: 120%;
+    background:#BE76D0;
+    background: linear-gradient(to bottom right, #C290CF, #C39BCD, #CCAED3, #EDE2EF);
 }
 
 main{
@@ -43,7 +48,12 @@ main{
 header{
     text-align: center;
 }
-
+li{
+    line-height: 400%;
+    font-size: 1.5em;
+    color: whitesmoke;
+   
+}
 p{
     margin-left: 150px;
     margin-right: 150px;
