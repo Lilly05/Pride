@@ -16,7 +16,7 @@ h2, p{
     display: grid;
     margin: 0 auto;
     width: 100%;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 150px auto 150px;
     grid-template-rows: 100px auto auto;
 }
 
@@ -26,7 +26,7 @@ header, footer{
     justify-content: center;
     align-content: space-around;
 }
-nav{
+.nav1{
     grid-column-start: 1;
     grid-column-end: 2;
     width: 120%;
@@ -70,3 +70,11 @@ ul{
     padding-left: 10px;
 }
 
+.nav2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    width: 100%;
+    background:#BE76D0;
+    background: linear-gradient(to bottom right, #C290CF, #C39BCD, #CCAED3, #EDE2EF);
+    padding-right: 0;
+}
