@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel= "stylesheet" href= https://offline.ch/ict/paper.css>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="formular.css" rel="stylesheet">
+    <title>LGBTQIA+</title>
+</head>
+<body>
+    <div>
+    <h1>Enter your comment</h1>
+    <form action="https://formlog.offline.ch/log" method="POST">
+    <fieldset>
+        <legend<b>Please enter your name</b></legend>
+        <br>
+        <input type="text" name="Name" placeholder="Name" required>
+    </fieldset>
+
+    <fieldset>
+        <legend<b>Please enter your email, so that we can answer you</b></legend>
+        <br>
+        <input type="email" name="Email" placeholder="Email" required>
+    </fieldset>
+
+    <fieldset>
+        <legend<b>Who should answer your question?</b></legend>
+        <br>
+        <input type="radio" id="r1" name="Answer" value="Woman">
+        <label for="r1">Woman</label><br />
+
+        <input type="radio" id="r2" name="Answer" value="Man">
+        <label for="r2">Man</label><br />
+
+        <input type="radio" id="r3" name="Answer" value="Doesn't matter">
+        <label for="r3">Doesn't matter</label>
+        <br>
+        <br>
+    <legend<b>Why are you texting us?</b></legend>
+    <br>
+        <select>
+            <option name="reason" value="1">Question</option>
+            <option name="reason" value="2">Comment/ message</option>
+            <option name="reason" value="3">Something else</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend<b>Now, please enter your question/ comment or whatever</b></legend>
+        <br>
+        <textarea cols="40" rows="5" name="Question" placeholder="Enter your question" required></textarea>
+    </fieldset>
+    <input class="button" type="submit" value="Done">
+</form>
+</div>
+</body>
