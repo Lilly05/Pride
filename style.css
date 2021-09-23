@@ -85,12 +85,11 @@ ul{
     .container{
         display: grid;
         width: 400px;
-        grid-template-columns: 100%;
-        grid-template-rows: 300px 300px 300px 300px 300px;
-        margin:0%;
+        grid-template-rows: 500px 500px 500px 500px 500px;
+       
     }
 
     .element{
         grid-column: 1 / 2;
-
+    }
 }
