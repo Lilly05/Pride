@@ -1,8 +1,15 @@
 body{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
     color: whitesmoke;
-    background:#ba74cc;
-    background: linear-gradient(to right, #C290CF, #C39BCD, #CCAED3, #EDE2EF);
+    background-color:whitesmoke;
+}
+
+h1{
+    color: #BE76D0;;
+}
+
+h2, p{
+    color:#47476b;
 }
 
 .container{
@@ -48,7 +55,7 @@ main{
 header{
     text-align: center;
 }
-li{
+li {
     line-height: 400%;
     font-size: 1.5em;
     color: whitesmoke;
@@ -66,3 +73,4 @@ li{
 .bilder{
     justify-content: center;
 }
+
