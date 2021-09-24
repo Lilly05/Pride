@@ -84,7 +84,7 @@ nav > div > ul >li > a{
     text-decoration: none;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
     .container {
         display: grid;
         width: 100%;
