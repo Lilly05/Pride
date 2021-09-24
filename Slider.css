@@ -1,38 +1,32 @@
-body{
-  background:#BE76D0;
-  background: linear-gradient(to right, #C290CF, #C39BCD, #CCAED3, #EDE2EF);
-
+body {
+    background: #BE76D0;
+    background: linear-gradient(to right, #C290CF, #C39BCD, #CCAED3, #EDE2EF);
 }
 
-.container{
-
+.container {
     display: flex;
     justify-content: center;
     margin-top: 12em;
 }
 
-.inner{
-
+.inner {
     text-align: center;
     color: whitesmoke;
     overflow: hidden;
     padding: 0.4em;
 }
 
-.inner>h1{
-
-    font-size: 2em; 
+.inner>h1 {
+    font-size: 3em;
     animation: Slide_Up 1.4s ease;
 }
 
-.inner>p{
-
-    font-size: 1.2em;
+.inner>p {
+    font-size: 1.5em;
     animation: Slide_Up 1.6s ease;
 }
 
-.inner>a>button{
-
+.inner>a>button {
     margin-top: 2em;
     padding: 1em 2.5em;
     font-size: 1em;
@@ -43,33 +37,46 @@ body{
     animation: Slide_Up 1.7s ease;
 }
 
-@keyframes Slide_Up{
-
-    0%{
+@keyframes Slide_Up {
+    0% {
         transform: translateY(250px);
     }
-
-    100%{
-
+    100% {
         transform: translate(0);
-
     }
-
 }
 
-@media screen and (max-width: 767px) {  
+@media screen and (max-width: 1178px) {
+    .inner>h1 {
+        color: whitesmoke;
+        font-size: 2em;
+    }
+    .inner>p {
+        color: whitesmoke;
+        font-size: 1.7em;
+    }
+    .inner>a>button {
+        margin-top: 2.5em;
+        padding: 1em 2.5em;
+        font-size: 1.2em;
+        border-radius: 4em;
+        border: none;
+        background: #D2D2D2;
+        color: whitesmoke;
+        animation: Slide_Up 1.7s ease;
+    }
+}
 
-    .inner>h1{
+@media screen and (max-width: 767px) {
+    .inner>h1 {
         color: whitesmoke;
         font-size: 1.6em;
-    }   
-    
-    .inner>p{
+    }
+    .inner>p {
         color: whitesmoke;
         font-size: 1.2em;
     }
-    .inner>a>button{
-
+    .inner>a>button {
         margin-top: 2em;
         padding: 1em 2.5em;
         font-size: 1em;
@@ -79,22 +86,18 @@ body{
         color: whitesmoke;
         animation: Slide_Up 1.7s ease;
     }
-
 }
 
-@media screen and (max-width: 540px) {  
-
-    .inner>h1{
+@media screen and (max-width: 540px) {
+    .inner>h1 {
         color: whitesmoke;
         font-size: 1.25em;
-    }   
-    
-    .inner>p{
+    }
+    .inner>p {
         color: whitesmoke;
         font-size: 1.1em;
     }
-    .inner>a>button{
-
+    .inner>a>button {
         margin-top: 2em;
         padding: 1em 2.5em;
         font-size: 1em;
@@ -104,24 +107,18 @@ body{
         color: whitesmoke;
         animation: Slide_Up 1.7s ease;
     }
-
-    
 }
 
-@media screen and (max-width: 400px) {  
-
-    .inner>h1{
+@media screen and (max-width: 400px) {
+    .inner>h1 {
         color: #585858;
         font-size: 1.1em;
-    }   
-    
-    .inner>p{
+    }
+    .inner>p {
         color: #585858;
         font-size: 1em;
     }
-
-    .inner>a>button{
-
+    .inner>a>button {
         margin-top: 1.5em;
         padding: 1em 2.5em;
         font-size: 1em;
@@ -131,6 +128,4 @@ body{
         color: #585858;
         animation: Slide_Up 1.7s ease;
     }
-
-
 }

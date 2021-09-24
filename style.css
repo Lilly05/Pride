@@ -1,18 +1,18 @@
-body{
+body {
     font-family: 'Be Vietnam Pro', sans-serif;
     color: whitesmoke;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
 }
 
-h1{
+h1 {
     color: #BE76D0;
 }
 
-h2, p{
-    color:#47476b;
+h2, p {
+    color: #47476b;
 }
 
-.container{
+.container {
     display: grid;
     margin: 0 auto;
     width: 100%;
@@ -20,44 +20,43 @@ h2, p{
     grid-template-rows: 100px auto auto;
 }
 
-header, footer{
+header, footer {
     grid-column-start: 1;
     grid-column-end: 3;
     justify-content: center;
     align-content: space-around;
 }
-nav{
+
+nav {
     grid-column-start: 1;
     grid-column-end: 2;
     width: 120%;
-    background:#BE76D0;
+    background: #BE76D0;
     background: linear-gradient(to bottom right, #C290CF, #C39BCD, #CCAED3, #EDE2EF);
     padding-left: 0;
 }
 
-.text>p{
-
+.text>p {
     font-size: 1.25em;
-    
 }
 
-.image{
+.image {
     width: 300px;
     height: 200px;
 }
 
-main{
+main {
     grid-column-start: 2;
     grid-column-end: 3;
     padding-left: 50px;
 }
 
-.flex{
+.flex {
     display: flex;
-    align-content:space-between;
+    align-content: space-between;
 }
 
-header{
+header {
     text-align: center;
 }
 
@@ -68,54 +67,45 @@ li {
     list-style-type: none;
 }
 
-.content{
+.content {
     flex-direction: column;
 }
 
-.helpline{
+.helpline {
     margin-left: 150px;
     margin-right: 150px;
 }
 
-ul{
+ul {
     padding-left: 10px;
 }
 
 @media screen and (max-width: 400px) {
-    .container{
+    .container {
         display: grid;
         width: 400px;
         grid-template-rows: 100px 500px 500px 500px 500px 100px 100px;
-       
     }
-
-    .element{
+    .element {
         grid-column: 1 / 2;
     }
-
-    header{
+    header {
         grid-row-start: 1;
         grid-row-end: 2;
     }
-
-    nav{
+    nav {
         grid-row-start: 2;
         grid-row-end: 6;
     }
-
-    main{
+    main {
         grid-row-start: 2;
         grid-row-end: 5;
     }
-
-    footer, .helpline{
+    footer, .helpline {
         grid-row-start: 7;
         grid-row-end: 8;
         margin-left: 20px;
         margin-right: 20px;
     }
-
-    .helpline{
-        
-    }
+    .helpline {}
 }
