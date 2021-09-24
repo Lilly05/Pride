@@ -92,7 +92,7 @@ main > .image1 {
 p {
     font-size: 1.25em;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .container {
         display: grid;
         width: 400px;
