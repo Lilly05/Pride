@@ -19,6 +19,11 @@ h2, p {
     grid-template-columns: 150px auto 150px;
     grid-template-rows: 100px auto auto;
 }
+.none{
+
+    visibility: hidden;
+
+}
 
 header, footer {
     grid-column-start: 1;
@@ -81,7 +86,7 @@ ul {
 }
 
 main > .image1 {
-    margin-left: 150px;
+    margin-left: auto;
     height: 600px;
 }
 .image2 {
@@ -113,19 +118,19 @@ p {
         grid-row-end: 2;
     }
 
-    aside{
-            grid-column-start: 1;
-            grid-column-end: 2;
-            width: 50%;
-            background: #BE76D0;
-            background: linear-gradient(to bottom right, #C290CF, #C39BCD, #CCAED3, #EDE2EF);
-            padding-left: 0;
-        
-        }
-    .image1, .image2{
+    
+    main>.image1{
 
         grid-row: 3 / 4;
-        height: 50px;
+        width: 150px;
+        height: 150px;
+        margin-left: 0px;
+    }
+    main>.image2{
+
+        grid-row: 3 / 4;
+        width: 150px;
+        height: 150px;
         margin-left: 0px;
     }
     .nav1 {
@@ -134,6 +139,18 @@ p {
     .nav2 {
         display: none;
     }
+
+     .none,.aside{
+
+            visibility: visible;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            width: 50%;
+            background: #BE76D0;
+            background: linear-gradient(to bottom right, #C290CF, #C39BCD, #CCAED3, #EDE2EF);
+            padding-left: 0;
+        
+        }
     main {
         grid-row-start: 2;
         grid-row-end: 5;
