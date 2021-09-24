@@ -81,12 +81,12 @@ ul {
 }
 
 main > .image1 {
-    margin-left: 250px;
-    height: 100px;
+    margin-left: 150px;
+    height: 600px;
 }
 .image2 {
     margin-left: 0px;
-    height: 100px;
+    height: 600px;
 }
 
 p {
@@ -122,10 +122,9 @@ p {
             padding-left: 0;
         
         }
-    main>.image1{
+    .image1, .image2{
 
         grid-row: 3 / 4;
-        width: 100px;
         height: 50px;
         margin-left: 0px;
     }
