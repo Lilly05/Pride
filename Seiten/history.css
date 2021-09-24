@@ -99,6 +99,10 @@ nav > div > ul >li > a{
     text-decoration: none;
 }
 
+main > img{
+    width: 99%;
+}
+
 @media screen and (max-width: 500px) {
     .container {
         display: grid;
@@ -160,5 +164,5 @@ nav > div > ul >li > a{
     aside > div > ul >li > a{
         text-decoration: none;
     }
-    
+
 }
