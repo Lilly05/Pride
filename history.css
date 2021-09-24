@@ -95,6 +95,10 @@ ul {
     padding-right: 0;
 }
 
+nav > div > ul >li > a{
+    text-decoration: none;
+}
+
 @media screen and (max-width: 500px) {
     .container {
         display: grid;
@@ -152,4 +156,9 @@ ul {
         margin-left: 0px;
         flex-direction: column;
     }
+
+    aside > div > ul >li > a{
+        text-decoration: none;
+    }
+    
 }
