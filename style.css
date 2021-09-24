@@ -101,11 +101,11 @@ ul {
         grid-row-start: 2;
         grid-row-end: 5;
     }
-    footer, .helpline {
+    footer, .helpline{
         grid-row-start: 7;
         grid-row-end: 8;
+        margin-right: 50px;
         margin-left: 20px;
-        margin-right: 20px;
+        flex-direction: column;
     }
-    .helpline {}
 }
