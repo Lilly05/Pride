@@ -22,9 +22,15 @@ h2, p {
     grid-template-rows: 100px auto auto;
 }
 
-
 .none{
     visibility: hidden;
+}
+
+header, footer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-content: center;
+    align-content: space-around;
 }
 
 .nav1 {
@@ -41,20 +47,6 @@ main {
     grid-column-end: 3;
     padding-left: 50px;
     font-size: 1.25em;
-}
-
-header, footer {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    justify-content: center;
-    align-content: space-around;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
 
 .flex {
@@ -99,8 +91,17 @@ nav > div > ul >li > a{
     text-decoration: none;
 }
 
-main > img{
-    width: 99%;
+main > .image1 {
+    margin-left: auto;
+    height: 600px;
+}
+.image2 {
+    margin-left: 0px;
+    height: 600px;
+}
+
+.image3{
+    width: 100%;
 }
 
 @media screen and (max-width: 800px) {
@@ -151,6 +152,10 @@ main > img{
     main{
         text-align: center;
         padding-left: 0%;
+    }
+
+    .image1, .image2{
+        width: 100%;
     }
 
 }
