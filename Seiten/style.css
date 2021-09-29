@@ -121,7 +121,7 @@ nav > div > ul >li > a{
     }
 
     .logo{
-        visibility: hidden;
+        margin-top: 70px;
+        margin-left: 50%;
     }
-
 }
