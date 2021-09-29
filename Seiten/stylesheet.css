@@ -158,4 +158,8 @@ main > .image1 {
         width: 100%;
     }
 
+    nav > div > ul >li > a{
+        text-decoration: none;
+    }
+
 }
