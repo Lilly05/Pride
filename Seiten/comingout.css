@@ -13,12 +13,17 @@ h2, p {
     color: #47476b;
 }
 
+
 .container {
     display: grid;
     margin: 0 auto;
     width: 100%;
     grid-template-columns: 150px auto 150px;
     grid-template-rows: 100px auto auto;
+}
+
+.none{
+    visibility: hidden;
 }
 
 header, footer {
@@ -37,7 +42,7 @@ header, footer {
     padding-left: 0;
 }
 
-main>p {
+main {
     grid-column-start: 2;
     grid-column-end: 3;
     padding-left: 50px;

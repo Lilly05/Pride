@@ -4,9 +4,15 @@ body {
     background-color: whitesmoke;
 }
 
+div > header > h1 > a{
+    text-decoration: none;
+    color: #BE76D0;
+}
+
 h2, p {
     color: #47476b;
 }
+
 
 .container {
     display: grid;
@@ -16,16 +22,7 @@ h2, p {
     grid-template-rows: 100px auto auto;
 }
 .none{
-
     visibility: hidden;
-
-}
-
-header, footer {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    justify-content: center;
-    align-content: space-around;
 }
 
 .nav1 {
@@ -37,16 +34,21 @@ header, footer {
     padding-left: 0;
 }
 
-main {
+main{
     grid-column-start: 2;
     grid-column-end: 3;
     padding-left: 50px;
+    font-size: 1.25em;
 }
 
-div > header > h1 > a{
-    text-decoration: none;
-    color: #BE76D0;
+header, footer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-content: center;
+    align-content: space-around;
 }
+
+
 
 .flex {
     display: flex;
@@ -95,9 +97,7 @@ main > .image1 {
     height: 600px;
 }
 
-p {
-    font-size: 1.25em;
-}
+
 
 nav > div > ul >li > a{
     text-decoration: none;

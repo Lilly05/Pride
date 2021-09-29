@@ -13,9 +13,6 @@ h2, p {
     color: #47476b;
 }
 
-p {
-    font-size: 1.25em;
-}
 
 .container {
     display: grid;
@@ -25,12 +22,6 @@ p {
     grid-template-rows: 100px auto auto;
 }
 
-header, footer {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    justify-content: center;
-    align-content: space-around;
-}
 
 .none{
     visibility: hidden;
@@ -49,6 +40,14 @@ main {
     grid-column-start: 2;
     grid-column-end: 3;
     padding-left: 50px;
+    font-size: 1.25em;
+}
+
+header, footer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-content: center;
+    align-content: space-around;
 }
 
 .center {
